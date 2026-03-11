@@ -86,7 +86,7 @@ function tick() {
   } else {
     clearInterval(timer);
     timer = null;
-    alert(inBreak ? 'Break over' : 'Work session complete');
+    showMessage(inBreak ? 'Break over' : 'Work session complete', 3000);
     inBreak = !inBreak;
     remaining = 0;
     document.getElementById('start-button').disabled = false;
@@ -97,4 +97,15 @@ function tick() {
     document.getElementById('break-duration').disabled = false;
     document.body.classList.remove('running');
   }
+}
+
+// display transient message similar to KWordle
+function showMessage(message, timeout) {
+  var el = document.getElementById('message');
+  if (!el) return;
+  el.textContent = message;
+  el.style.display = 'block';
+  setTimeout(function() {
+    el.style.display = 'none';
+  }, timeout || 2000);
 }
