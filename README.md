@@ -1,5 +1,6 @@
 # KPomo
-
+<img width="auto" height="600" alt="image" src="https://github.com/user-attachments/assets/0422d226-58ab-48d8-ae23-8f1d3766347a" />
+<br /><br />
 KPomo is a simple Pomodoro focus timer designed for Kindle e-readers (e-ink devices).
 It provides a minimal interface suitable for black-&-white displays and works entirely
 in the browser shipped on the device.
