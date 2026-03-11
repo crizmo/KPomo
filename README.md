@@ -19,6 +19,8 @@ in the browser shipped on the device.
 
 ## How to Install
 
+**Note:** If you have an older Kindle (5.6.1.1), download the zip with `-legacy` in its name.
+
 1. Download the latest release from this repository (or build it yourself).
 2. Connect your Kindle to your computer via USB.
 3. Copy the entire `kpomo` folder and `kpomo.sh` file into the **Documents** folder
