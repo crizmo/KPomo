@@ -4,27 +4,43 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta charset="utf-8">
+  <script src="js/polyfill.min.js"></script>
+  <script src="js/words.js"></script>
   <script src="main.js"></script>
   <link href="main.css" rel="stylesheet">
   <title>KPomo</title>
   <script>
     function update() {
       var chromebar = {
-        "appId": "xyz.crizmo.kpomo",
+        "appId": "xyz.kurizu.kpomo",
         "topNavBar": {
           "template": "title",
           "title": "KPomo",
           "buttons": [
-            { "id": "KPP_MORE", "state": "enabled", "handling": "system" },
-            { "id": "KPP_CLOSE", "state": "enabled", "handling": "system" }
-          ]
+            {
+              "id": "KPP_MORE",
+              "state": "enabled",
+              "handling": "system"
+            },
+            {
+              "id": "KPP_CLOSE",
+              "state": "enabled",
+              "handling": "system"
+            }
+          ],
         },
         "systemMenu": {
           "clientParams": {
             "profile": {
               "name": "default",
               "items": [
-                { "id": "KPOMO_RELOAD", "state": "enabled", "handling": "notifyApp", "label": "Reload", "position": 0 }
+                {
+                  "id": "KPOMO_RELOAD",
+                  "state": "enabled",
+                  "handling": "notifyApp",
+                  "label": "Reload",
+                  "position": 0
+                }
               ],
               "selectionMode": "none",
               "closeOnUse": true
@@ -38,9 +54,10 @@
     window.kindle.appmgr.ongo = function (ctx) {
       update();
       window.kindle.messaging.receiveMessage("systemMenuItemSelected", function (type, id) {
-        if (id === "KPOMO_RELOAD") {
-          window.location.reload();
-        }
+        switch (id) {
+          case "KPOMO_RELOAD":
+            window.location.reload();
+        };
       });
     };
   </script>
