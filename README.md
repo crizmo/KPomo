@@ -37,7 +37,7 @@ lipc-set-prop com.lab126.powerd preventScreenSaver 1 # Disable screensaver
    to begin a short break.
 3. Use **Pause** to pause the countdown or **Reset** to return to the current
    session length.
-4. You can adjust durations by editing the values in the top-right corner.
+4. You can adjust durations by editing the values in the center.
    
 ## Development
 
