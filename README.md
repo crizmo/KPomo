@@ -5,10 +5,7 @@
    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi" />
 </a>
 <br /><br />
-KPomo is a simple Pomodoro focus timer designed for Kindle e-readers (e-ink devices).
-It provides a minimal interface suitable for black-&-white displays and works entirely
-in the browser shipped on the device.
-
+KPomo is a simple Pomodoro focus timer designed for Kindles
 ## Overview
 
 - 25‑minute work sessions followed by 5‑minute short breaks (configurable in the UI)
