@@ -6,6 +6,7 @@
 </a>
 <br /><br />
 KPomo is a simple Pomodoro focus timer designed for Kindles
+
 ## Overview
 
 - 25‑minute work sessions followed by 5‑minute short breaks (configurable in the UI)
