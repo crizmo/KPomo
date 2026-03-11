@@ -27,10 +27,11 @@ in the browser shipped on the device.
    of your Kindle.
 4. Safely eject your Kindle.
 5. On the device open the **KPomo** booklet to start the timer.
-6. [Disable screensaver on your Kindle](https://kindlemodding.org/kindle-apps-and-services/)
+6. [Disable screensaver on your Kindle](https://kindlemodding.org/kindle-apps-and-services/) ( If you want , if your timer is big, tho I think the timer should be running in the background even if its on screensaver screen , Idk haven't tested )
 ```
 lipc-set-prop com.lab126.powerd preventScreenSaver 1 # Disable screensaver
 ```
+
 ## Usage
 
 1. Tap **Start** to begin a work session (default 25 minutes).
