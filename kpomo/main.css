@@ -96,6 +96,13 @@ body.running #settings {
   font-size: 1rem;
   margin: 0 0.2rem;
 }
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 #settings button {
   width: 1.5rem;
   height: 1.5rem;
