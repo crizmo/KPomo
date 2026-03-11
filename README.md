@@ -35,7 +35,3 @@ in the browser shipped on the device.
 The code lives entirely in the `kpomo` directory. Modify `main.js` for logic,
 `main.css` for styling and `index.html` for structure. The `config.xml` file makes
 Kindle aware of the booklet and configures the chrome bar.
-
-## Credits
-- Inspired by [KWordle](https://github.com/crizmo/KWordle)
-- Timer logic by Kurizu
