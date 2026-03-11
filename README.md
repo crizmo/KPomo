@@ -27,7 +27,10 @@ in the browser shipped on the device.
    of your Kindle.
 4. Safely eject your Kindle.
 5. On the device open the **KPomo** booklet to start the timer.
-
+6. [Disable screensaver on your Kindle](https://kindlemodding.org/kindle-apps-and-services/)
+```
+lipc-set-prop com.lab126.powerd preventScreenSaver 1 # Disable screensaver
+```
 ## Usage
 
 1. Tap **Start** to begin a work session (default 25 minutes).
@@ -36,7 +39,7 @@ in the browser shipped on the device.
 3. Use **Pause** to pause the countdown or **Reset** to return to the current
    session length.
 4. You can adjust durations by editing the values in the top-right corner.
-
+   
 ## Development
 
 The code lives entirely in the `kpomo` directory. Modify `main.js` for logic,
