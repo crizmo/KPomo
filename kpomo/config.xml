@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+  <id>xyz.crizmo.kpomo</id>
+  <name>KPomo</name>
+  <version>1.0.0</version>
+  <entry>index.html</entry>
+  <author>kurizu</author>
+  <description>Simple Pomodoro timer for Kindle e-ink devices.</description>
+  <orientation>U</orientation>
+  <searchable>false</searchable>
+</app>
